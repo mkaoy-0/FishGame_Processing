@@ -1,0 +1,41 @@
+# ==========================================
+# Processing Specific
+# ==========================================
+data/
+
+# Processing が生成するビルド・一時フォルダ
+applet/
+out/
+bin/
+
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Editor / IDE Specific
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Eclipse (Processing PDE でエクスポートした場合など)
+.classpath
+.project
+.settings/
